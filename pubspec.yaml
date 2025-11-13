@@ -1,8 +1,9 @@
 name: farmerwealthapp
-description: "A new Flutter project."
+description: Farmer Wealth application for easy investments for farmers.
+
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
@@ -15,11 +16,11 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 # Read more about iOS versioning at
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
 # In Windows, build-name is used as the major, minor, and patch parts
-# of the product and file versions while build-number is used as the build suffix.
+# of the product and file versions while build-number is used as the build suffix.version: 1.0.44+50
 version: 1.0.0+1
 
 environment:
-  sdk: ^3.9.0
+  sdk: ">=2.18.0 <3.0.0"
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -33,40 +34,188 @@ dependencies:
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.8
+  cupertino_icons: ^1.0.2
+  carousel_slider: ^5.0.0
+  cached_network_image: ^3.3.1
+  connectivity_plus: ^6.1.4
+  device_info_plus: ^11.3.3
+  dropdown_button2: ^2.3.9
+  firebase_core: ^3.7.0
+  firebase_auth: ^5.3.2
+  firebase_app_check: ^0.3.1+5
+  firebase_crashlytics: ^4.1.4
+  firebase_analytics: ^11.3.4
+  flutter_secure_storage: ^9.2.2
+  flutter_svg: ^2.0.10+1
+  flutter_email_sender: ^7.0.0
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  http: ^1.1.0
+  intl: ^0.18.1
+  internet_connection_checker: ^3.0.1
+  otp_text_field: ^1.1.3
+  octo_image: ^2.0.0
+  overlay_tooltip: ^0.2.1
+  pin_code_fields: ^8.0.1
+  provider: ^6.0.3
+  responsive_framework: ^1.0.0
+  smooth_page_indicator: ^1.0.0+2
+  syncfusion_flutter_charts: ^30.2.7
+  syncfusion_flutter_core: ^30.2.7
+  url_launcher: ^6.3.1
+  url_launcher_ios: ^6.3.1
+  firebase_messaging: ^15.1.4
+  share_plus: ^11.0.0
+  dio: ^5.1.1
+  syncfusion_flutter_pdfviewer: ^30.2.7
+  local_auth: ^2.1.6
+  get: ^4.6.5
+  fluttertoast: ^8.2.12
+  flutter_switch: ^0.3.2
+  lottie: ^3.1.3
+  flutter_cache_manager: ^3.3.1
+  flutter_local_notifications: ^19.0.0
+  mixpanel_flutter: ^2.4.0
+  crypto: ^3.0.3
+  auto_size_text: ^3.0.0
+  dotted_border: ^3.1.0
+  shimmer: ^3.0.0
+  image_picker: ^1.0.4
+  flutter_html: ^3.0.0-beta.2
+  go_router: ^16.2.1
+  file_picker: ^10.0.0
+  flutter_slidable: ^4.0.0
+  swipe_widget: ^0.0.2+1
+  flutter_image_compress: ^2.0.4
+  flutter_keyboard_visibility: ^6.0.0
+  animated_text_kit: ^4.2.2
+  firebase_dynamic_links: ^6.0.9
+  permission_handler: ^12.0.0+1
+  syncfusion_flutter_maps: ^30.2.7
+  video_player: ^2.8.1
+  chewie: ^1.7.4
+  youtube_explode_dart: ^2.0.2
+  table_calendar: ^3.0.9
+  syncfusion_flutter_gauges: ^30.2.7
+  step_progress_indicator: ^1.0.2
+  flutter_animate: ^4.3.0
+  # image_cropper: ^8.0.2
+  web_socket_channel: ^3.0.1
+  flutter_staggered_grid_view: ^0.7.0
+  scrollable_list_tab_scroller: ^3.1.0
+  # scroll_to_animate_tab: ^0.0.2+3
+  timeline_tile: ^2.0.0
+  timelines_plus: ^1.0.7
+  # vibration: ^1.8.4
+  chewie_audio: ^1.5.0
+  app_settings: ^6.1.1
+  jwt_decoder: ^2.0.1
+  blurrycontainer: ^2.1.0
+  flutter_shake_animated: ^0.0.5
+  google_fonts: ^6.2.1
+  flutter_map: ^8.1.1
+  latlong2: ^0.9.0
+  geolocator: ^14.0.0
+  geocoding: ^3.0.0
+  flutter_map_location_marker: ^10.0.0
+  gradient_borders: ^1.0.0
+  page_transition: ^2.1.0
+  local_auth_ios: ^1.1.7
+  awesome_circular_chart: ^1.0.0
+  radial_progress: ^0.1.0
+  convex_bottom_bar: ^3.2.0
+  syncfusion_flutter_sliders: ^30.2.7
+  stories_for_flutter: ^1.2.1
+  syncfusion_flutter_signaturepad: ^30.2.7
+  dropdown_textfield: ^1.1.0
+  flutter_carousel_widget: ^3.1.0
+  flutter_inappwebview: ^6.1.5
+  animated_bottom_navigation_bar: ^1.3.3
+  dynamic_tabbar: ^1.0.7
+  fl_chart: ^1.1.0
+  flutter_layout_grid: ^2.0.7
+  visibility_detector: ^0.4.0+2
+  draggable_home: ^1.0.5
+  flutter_tucking_draggable_scrollable_sheet: ^1.0.1
+  in_app_update: ^4.2.3
+  upgrader: ^11.3.0
+  package_info_plus: ^8.0.2
+  percent_indicator: ^4.2.3
+  scroll_to_hide: ^2.1.0
+  syncfusion_flutter_datagrid: ^30.1.41
+  audioplayers: ^6.1.0
+  vibration: ^3.1.3
+  flutter_launcher_icons: ^0.14.2
+  location: ^8.0.0
+  geocode: ^1.0.3
+  gif: ^2.3.0
+  universal_html: ^2.2.4
+  shorebird_code_push: ^2.0.3
+  syncfusion_flutter_pdf: ^30.2.7
+  rxdart: ^0.27.0
+  signature: ^6.0.0
+  diacritic: ^0.1.6
+  tuple: ^2.0.2
+  flutter_lints: ^6.0.0
 
+  path_provider: any
+  local_auth_android: any
+  path: any
+  shared_preferences: any
+  html: any
+  http_parser: any
+  flutter_polls: ^0.1.6
+  tutorial_coach_mark: ^1.3.0
+  draggable_scrollbar: ^0.1.0
+  cached_network_svg_image: ^1.2.0
+  date_picker_plus: ^4.2.0
+  syncfusion_flutter_datepicker: ^30.2.7
+ 
+
+  mapbox_maps_flutter: ^2.12.0
+
+dependency_overrides:
+  archive: ^3.6.1
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/app_icon.png"
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
-  flutter_lints: ^6.0.0
+  flutter_lints: ^5.0.0
+
+# DEPRECATED
+# android_12:
+#   background_image_android: "assets/splash_screen.png"
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter packages.
 flutter:
-
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/
+    - shorebird.yaml
 
   # An image asset can refer to one or more resolution-specific "variants", see
-  # https://flutter.dev/to/resolution-aware-images
+  # https://flutter.dev/assets-and-images/#resolution-aware
 
   # For details regarding adding assets from package dependencies, see
-  # https://flutter.dev/to/asset-from-package
+  # https://flutter.dev/assets-and-images/#from-packages
 
   # To add custom fonts to your application, add a fonts section here,
   # in this "flutter" section. Each entry in this list should have a
@@ -74,16 +223,48 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   # fonts:
-  #   - family: Schyler
+  #   - family: BegumSans
   #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
-  #   - family: Trajan Pro
-  #     fonts:
-  #       - asset: fonts/TrajanPro.ttf
-  #       - asset: fonts/TrajanPro_Bold.ttf
+  #       - asset: assets/fonts/BegumSans-Regular.ttf
+  #         style: normal
+  #       - asset: assets/fonts/BegumSans-Light.ttf
+  #         weight: 100
+  #       - asset: assets/fonts/BegumSans-Medium.ttf
+  #         weight: 500
+  #       - asset: assets/fonts/BegumSans-SemiBold.ttf
   #         weight: 700
+  #       - asset: assets/fonts/BegumSans-Bold.ttf
+  #         weight: 900
+
+  #   - family: LockIcon
+  #     fonts:
+  #       - asset: assets/fonts/icons_custom/LockIcon.ttf
+
+  #   - family: Assistant
+  #     fonts:
+  #       - asset: cw_assets2.0/fonts/Assistant-Regular.ttf
+  #         style: normal
+  #       - asset: cw_assets2.0/fonts/Assistant-Light.ttf
+  #         weight: 100
+  #       - asset: cw_assets2.0/fonts/Assistant-Medium.ttf
+  #         weight: 500
+  #       - asset: cw_assets2.0/fonts/Assistant-SemiBold.ttf
+  #         weight: 700
+
+    # - family: MyAccountIcon
+    #   fonts:
+    #     - asset: assets/fonts/icons_custom/MyAccountIcon.ttf
+
+    # - family: AifIcon
+    #   fonts:
+    #     - asset: assets/fonts/icons_custom/AifIcon.ttf
+    # - asset: assets/fonts/icons_custom/Folio.ttf
+    # - asset: assets/fonts/icons_custom/AnalysisIcon.ttf
+    # - asset: assets/fonts/icons_custom/MutualFundIcon.ttf
+    #     - asset: fonts/Ennore_Complete_OTF/Ennore-Medium.otf
+    #     - asset: fonts/Ennore_Complete_OTF/Ennore-Light.otf
+    #     - asset: fonts/Ennore_Complete_OTF/Ennore-Bold.otf
+    # weigth: 800
   #
   # For details regarding fonts from package dependencies,
-  # see https://flutter.dev/to/font-from-package
+  # see https://flutter.dev/custom-fonts/#from-packages
